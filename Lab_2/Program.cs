@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
-    class Program
+ public   class Program
     {
-        static void Main(string[] args)
+    public    static void Main(string[] args)
         {
+            Person personObject = new Person();
+            personObject.Name = "Moe";
+            personObject.SayHello(personObject.Name);
+
+           
+            personObject.ShowAge(28);
+
         }
     }
 }
